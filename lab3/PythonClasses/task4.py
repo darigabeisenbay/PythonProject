@@ -15,8 +15,15 @@ class Point:
         print(self.x, self.y)
 
     def move(self):
-        pass
+        self.x = y
+        self.y = x
+        print(self.x, self.y)
 
     def dist(self):
-        pass
+        distance = ((y **2 - x **2) **0.5)
+        print(distance)
+s = Point(x, y)
+s.show()
+s.move()
+s.dist()
 
