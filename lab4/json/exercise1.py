@@ -18,3 +18,4 @@ for item in data["imdata"]:
     mtu = attributes.get("mtu", "")
     if dn is not None:
         print(f"{dn} {description:<20} {speed:<7} {mtu:<6}")
+
